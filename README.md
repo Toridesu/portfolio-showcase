@@ -1,14 +1,17 @@
 # React + TypeScript 学習プロジェクト
+
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-19.0.0-61dafb)](https://reactjs.org/)
 [![Next.js](https://img.shields.io/badge/Next.js-15.1.4-000000)](https://nextjs.org/)
 
 ## 🔧 開発環境
+
 - Node.js: 22.10.0
 - パッケージマネージャー: npm
 - エディタ: Cursor
 
 ### 使用している主要パッケージ
+
 - React: 19.0.0
 - Next.js: 15.1.4
 - TypeScript: 5
@@ -23,19 +26,20 @@
 
 ## 📖 参考にした資料
 
-- ドキュメント
-  https://cmmnty-docs.notion.site/React-shadcn-ui-155111c24256805fbb80dcf027938e89
-- Tailwind サービス
-  https://zenn.dev/d0ne1s/articles/c4909f32ce8fed5ac251
--
+- ()や\_から始まるディレクトリのルーティングについて
+  - https://nextjs.org/docs/app/building-your-application/routing/route-groups
+  - https://nextjs.org/docs/app/getting-started/project-structure#private-folders
 
 ## 💡 学びのポイント
 
-- git init
-- git add .
-- git commit -m "React の導入"
-- git remote add origin [GitHub のリポジトリ URL]
-- git push origin main(初回の場合:git push -u origin main)
+- git remote add origin https://github.com/Toridesu/portfolio-showcase.git
+
+- 変更をステージング
+  git add .
+- コミット
+  git commit -m "Initial commit"
+- GitHub にプッシュ
+  git push -u origin main
 
 ### つまずきポイント
 
@@ -50,6 +54,6 @@
 
 ## 📚 学習メモ
 
-- 2024/12/13
-  - 前回のハンズオンで学んだものを一から作ってみる。
-  - shadcn/ui のサイドバー作成で躓いた。今日は終了(18:38)
+- 2025/01/09 (2h)
+  - 環境構築
+  - サイトレイアウトの作成

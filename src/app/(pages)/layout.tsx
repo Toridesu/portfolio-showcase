@@ -23,7 +23,7 @@ const Layout = (props: Props) => {
         {props.children}
 
         {/* Footer */}
-        <footer className=''>
+        <footer className='text-center'>
           <div>
             <p className='text-gray-700'>
               Created by{' '}
