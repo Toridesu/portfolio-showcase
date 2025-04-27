@@ -10,12 +10,9 @@ import {
 import { fetchRepoData } from "@/utils/api";
 import { Star } from "lucide-react";
 import Link from "next/link";
+import ReactionGroup from "./reaction-group";
 
-const MetaDataCard = async ({
-  repoUrl,
-}: {
-  repoUrl: string;
-}) => {
+const MetaDataCard = async ({ repoUrl }: { repoUrl: string }) => {
   const repoData = await fetchRepoData(repoUrl);
   return (
     <>
@@ -34,20 +31,11 @@ const MetaDataCard = async ({
           </CardDescription>
           <div className="flex gap-2 w-full">
             <Button className="w-full" size={"lg"} asChild>
-              <Link
-                href={repoUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <Link href={repoUrl} target="_blank" rel="noopener noreferrer">
                 GitHub
               </Link>
             </Button>
-            <Button
-              className="w-full"
-              size={"lg"}
-              variant={"outline"}
-              asChild
-            >
+            <Button className="w-full" size={"lg"} variant={"outline"} asChild>
               <Link
                 href={repoData.homepage}
                 target="_blank"
@@ -59,7 +47,9 @@ const MetaDataCard = async ({
           </div>
         </CardContent>
 
-        <CardFooter className="flex-col items-start"></CardFooter>
+        <CardFooter className="flex-col items-start">
+          <ReactionGroup contentId={repoData.id} />
+        </CardFooter>
       </Card>
       <p className="text-muted-foreground text-sm p-4">
         ログインせずに、リアクションできます;)
