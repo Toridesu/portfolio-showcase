@@ -37,7 +37,7 @@ const MetaDataCard = async ({ repoUrl }: { repoUrl: string }) => {
             </Button>
             <Button className="w-full" size={"lg"} variant={"outline"} asChild>
               <Link
-                href={repoData.homepage}
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
               >
