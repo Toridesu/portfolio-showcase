@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ポートフォリオサイト (portfolio-showcase)
 
-## Getting Started
+はじめまして！このリポジトリは、私のスキル、経験、そしてこれまでに情熱を注いで開発してきたプロジェクトを紹介するために作成したポートフォリオサイトのソースコードです。
 
-First, run the development server:
+このサイトを通じて、私のこれまでの学習の軌跡と、ものづくりに対する姿勢を感じ取っていただければ幸いです。
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 このポートフォリオサイトの目的
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **スキルの可視化:** 私がこれまで培ってきたフロントエンドからバックエンドまでの技術スタックと、それらを活用した実装能力を具体的に示します。
+- **プロジェクト紹介:** 過去に開発したプロジェクトを紹介しています。
+- **継続的な成長のアピール:** このポートフォリオサイト自体も、新しい技術やデザインを取り入れながら継続的に改善していく予定です。その過程も見ていただけると嬉しいです。
+- **コミュニケーションのきっかけ:** このサイトが、採用担当者の皆様や、同じように技術を愛する方々との新たな繋がりのきっかけになることを願っています。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ 主な機能
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **プロジェクト一覧:** これまで開発したプロジェクトを紹介します。各プロジェクトの詳細ページでは、使用技術やソースコードへのリンクなどを掲載していています。
 
-## Learn More
+## 🚀 技術スタック
 
-To learn more about Next.js, take a look at the following resources:
+- **フロントエンド:**
+  - **Next.js (App Router) & Turbopack:** 高パフォーマンスな React 開発と高速ビルド。
+  - **TypeScript:** 型安全による堅牢なコード開発。
+  - **Tailwind CSS & @tailwindcss/typography:** 効率的で美しい UI 構築。
+  - **shadcn/ui:** 高品質な UI コンポーネント群
+- **データベース:**
+  - **Supabase:** リアクション機能を実装するため、DB を作成し、リアクション数を管理。
+- **開発ツール:**
+  - **ESLint, Prettier (Next.js 標準設定):** コード品質と一貫性の維持。
+  - **Git, GitHub:** バージョン管理とコード共有。
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+ご覧いただきありがとうございます。このポートフォリオサイトが、あなたとの良い出会いに繋がることを心より願っております。
+お気軽にご連絡ください！

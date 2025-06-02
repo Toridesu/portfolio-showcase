@@ -1,7 +1,7 @@
 import Link from "next/link";
 
-const GITHUB_URL = "#";
-const HANDLE_NAME = "your-handle";
+const GITHUB_URL = "https://github.com/Toridesu";
+const HANDLE_NAME = "Toridesu";
 
 type Props = {
   children: React.ReactNode;
@@ -30,12 +30,12 @@ const Layout = (props: Props) => {
             <Link className="text-emerald-600" href={GITHUB_URL}>
               @{HANDLE_NAME}
             </Link>{" "}
-            &copy; 2024
+            &copy; {new Date().getFullYear()}
           </p>
         </footer>
       </div>
     </>
   );
-};
+};  
 
 export default Layout;

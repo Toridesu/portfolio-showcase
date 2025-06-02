@@ -18,7 +18,7 @@ export default async function Home() {
   );
 
   return (
-    <main className="space-y-32 pt-16">
+    <main className="space-y-16 pt-16">
       <Hero />
       <Gallery projects={projects.reverse()} />
     </main>
