@@ -25,11 +25,11 @@ const MetaDataCard = async ({ repoUrl }: { repoUrl: string }) => {
           </div>
         </CardHeader>
 
-        <CardContent className="space-y-6">
+        <CardContent>
           <CardDescription className="text-3xl">
             {repoData.description}
           </CardDescription>
-          <div className="flex gap-2 w-full">
+          <div className="flex flex-col gap-2 w-full">
             <Button className="w-full" size={"lg"} asChild>
               <Link href={repoUrl} target="_blank" rel="noopener noreferrer">
                 GitHub
