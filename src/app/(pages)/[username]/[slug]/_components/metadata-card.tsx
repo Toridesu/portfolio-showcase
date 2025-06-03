@@ -35,7 +35,7 @@ const MetaDataCard = async ({ repoUrl }: { repoUrl: string }) => {
                 GitHub
               </Link>
             </Button>
-            <Button className="w-full" size={"lg"} variant={"outline"} asChild>
+            {/* <Button className="w-full" size={"lg"} variant={"outline"} asChild>
               <Link
                 href="#"
                 target="_blank"
@@ -43,7 +43,7 @@ const MetaDataCard = async ({ repoUrl }: { repoUrl: string }) => {
               >
                 View Demo
               </Link>
-            </Button>
+            </Button> */}
           </div>
         </CardContent>
 
