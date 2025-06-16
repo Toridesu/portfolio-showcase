@@ -30,9 +30,9 @@ export const PROJECTS = [
     imageURL:
       "https://github.com/user-attachments/assets/86678826-668d-437b-b5e6-0efff253dd6b",
   },
-  {
-    repoUrl: "https://github.com/Toridesu/knowledge-ec",
-    imageURL:
-      "https://github.com/user-attachments/assets/8b0680a6-1713-4e59-bb48-78cd71d901b7",
-  },
+  // {
+  //   repoUrl: "https://github.com/Toridesu/knowledge-ec",
+  //   imageURL:
+  //     "https://github.com/user-attachments/assets/8b0680a6-1713-4e59-bb48-78cd71d901b7",
+  // },
 ];
