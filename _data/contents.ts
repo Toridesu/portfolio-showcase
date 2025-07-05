@@ -15,11 +15,11 @@ export const PROJECTS = [
     imageURL:
       "https://github.com/user-attachments/assets/619a71fa-c433-4ab5-b267-1d7a341c8fa1",
   },
-  {
-    repoUrl: "https://github.com/Toridesu/pokemon-omikuji",
-    imageURL:
-      "https://github.com/user-attachments/assets/6effccd2-c8f0-4fb4-9196-fdae4e6fca4c",
-  },
+  // {
+  //   repoUrl: "https://github.com/Toridesu/pokemon-omikuji",
+  //   imageURL:
+  //     "https://github.com/user-attachments/assets/6effccd2-c8f0-4fb4-9196-fdae4e6fca4c",
+  // },
   {
     repoUrl: "https://github.com/Toridesu/teck-news-letter",
     imageURL:
